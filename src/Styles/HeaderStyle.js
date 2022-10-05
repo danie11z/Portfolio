@@ -16,23 +16,11 @@ export const MenuList = styled.ul`
     align-items: center;
     height: 9vh;
 
-    @media(max-width: 768px){
-        width: 36vw;
+    @media screen and (max-width: 700px) and (min-width: 501px){
+        width: 50vw;
     }
 
-    @media(max-width: 600px){
-        width: 37vw;
-    }
-
-    @media(max-width: 500px){
-        width: 45vw;
-    }
-
-    @media(max-width: 450px){
-        width: 48vw;
-    }
-
-    @media(max-width:425px){
+    @media screen and (max-width: 500px) and (min-width: 320px){
         width: 100%;
     }
 `
@@ -47,47 +35,11 @@ export const MenuLink = styled(Link)`
         color: #000000;
     }
 
-    @media(max-width: 2560px){
-        font-size: 1.5vw;
-    }
-
-    @media(max-width: 2230px){
-        font-size: 1.6vw;
-    }
-
-    @media(max-width: 1440px){
-        font-size: 1.5vw;
-    }
-
-    @media(max-width: 800px){
-        font-size: 1.7vw;
-    }
-
-    @media(max-width: 768px){
-        font-size: 2vw;
-    }
-
-    @media(max-width: 670px){
-        font-size: 2.3vw;
-    }
-
-    @media(max-width: 580px){
-        font-size: 2.5vw;
-    }
-
-    @media(max-width: 500px){
+    @media screen and (max-width: 700px) and (min-width: 500px){
         font-size: 3vw;
     }
 
-    @media(max-width: 450px){
-        font-size: 3.2vw;
-    }
-
-    @media(max-width: 425px){
+    @media screen and (max-width: 500px) and (min-width: 320px){
         font-size: 4vw;
-    }
-
-    @media(max-width: 320px){
-        font-size: 4.3vw;
     }
 `
