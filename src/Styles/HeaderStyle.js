@@ -16,6 +16,10 @@ export const MenuList = styled.ul`
     align-items: center;
     height: 9vh;
 
+    @media screen and (max-width: 820px) and (min-width: 700px){
+        width: 40vw;
+    }
+
     @media screen and (max-width: 700px) and (min-width: 501px){
         width: 50vw;
     }
@@ -30,9 +34,18 @@ export const MenuLink = styled(Link)`
     color: #696969;
     font-weight: 600;
     font-size: 1.3vw;
+    font-family: 'Roboto Condensed', sans-serif;
 
     &:hover{
         color: #000000;
+    }
+
+    @media screen and (max-width: 1440px) and (min-width: 820px){
+        font-size: 1.8vw;
+    }
+
+    @media screen and (max-width: 820px) and (min-width: 700px){
+        font-size: 2.5vw;
     }
 
     @media screen and (max-width: 700px) and (min-width: 500px){
