@@ -32,16 +32,20 @@ export const MenuLink = styled(Link)`
     font-size: 1.5vw;
     font-family: 'Roboto Condensed', sans-serif;
 
-    &:hover{
+    &:hover{ 
         color: #000000;
     }
 
+    @media screen and (max-width: 950px) and (min-width:820px){
+        font-size: 2vw;
+    }
+
     @media screen and (max-width: 820px) and (min-width: 680px){
-        font-size: 3vw;
+        font-size: 2.5vw;
     }
 
     @media screen and (max-width: 680px) and (min-width: 563px){
-        font-size: 3.5vw;
+        font-size: 3vw;
     }
 
     @media screen and (max-width: 563px) and (min-width: 500px){

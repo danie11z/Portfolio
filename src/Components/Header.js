@@ -2,19 +2,19 @@ import React from "react"
 
 import * as S from "../Styles/HeaderStyle"
 
-const Header = ({rotaSobre, rotaProjetos, rotaContato}) =>{
+const Header = ({rotaHome, rotaProjetos, rotaSobre}) =>{
     return(
         <S.Topo>
             <S.Nav>
                 <S.MenuList>
                     <li>
-                        <S.MenuLink to="/" title="Sobre mim">{rotaSobre}</S.MenuLink>
+                        <S.MenuLink to="/" title="Sobre mim">{rotaHome}</S.MenuLink>
                     </li>
                     <li>
                         <S.MenuLink to="/projetos" title="Projetos">{rotaProjetos}</S.MenuLink>
                     </li>
                     <li>
-                        <S.MenuLink to="/contato" title="Contato">{rotaContato}</S.MenuLink>
+                        <S.MenuLink to="/sobre" title="Contato">{rotaSobre}</S.MenuLink>
                     </li>
                 </S.MenuList>
             </S.Nav>
