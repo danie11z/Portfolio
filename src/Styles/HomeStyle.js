@@ -24,10 +24,10 @@ export const DivOne = styled.div`
     justify-content: space-evenly;
     align-items: center;
     height: 45vh;
-    animation: ola 0.5s ease-in-out 0.5s 1 both;
+    animation: surgir 0.5s ease-in-out 0.5s 1 both;
 
 
-    @keyframes ola{
+    @keyframes surgir{
         0%{
             color: #FFFFFF;
         }
@@ -146,7 +146,7 @@ export const DivTwo = styled.div`
     }
 
     @media(max-width: 500px){
-        height: 90vh;
+        height: 85vh;
     }
 
     @media(max-width: 450px){

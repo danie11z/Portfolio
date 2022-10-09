@@ -8,13 +8,13 @@ const Header = ({rotaHome, rotaProjetos, rotaSobre}) =>{
             <S.Nav>
                 <S.MenuList>
                     <li>
-                        <S.MenuLink to="/" title="Sobre mim">{rotaHome}</S.MenuLink>
+                        <S.MenuLink to="/" title="Início">{rotaHome}</S.MenuLink>
                     </li>
                     <li>
                         <S.MenuLink to="/projetos" title="Projetos">{rotaProjetos}</S.MenuLink>
                     </li>
                     <li>
-                        <S.MenuLink to="/sobre" title="Contato">{rotaSobre}</S.MenuLink>
+                        <S.MenuLink to="/sobre" title="Sobre">{rotaSobre}</S.MenuLink>
                     </li>
                 </S.MenuList>
             </S.Nav>
