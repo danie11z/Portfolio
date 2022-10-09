@@ -61,18 +61,11 @@ export const ImgBox = styled.div`
     width: 50%;
     border-radius: 1vw 0 0 1vw;
     height: 30vh;
+
     @media(max-width: 500px){
         border-radius: 0;
         width: 100%;
-        height: 77%;
-    }
-
-    @media(max-width: 375px){
-        height: 73%;
-    }
-
-    @media(max-width: 320px){
-        height: 75%;
+        height: 100%;
     }
 `
 
@@ -87,15 +80,7 @@ export const MidImgBox = styled.div`
     @media(max-width: 500px){
         border-radius: 0;
         width: 100%;
-        height: 77%;
-    }
-
-    @media(max-width: 425px){
-        height: 73%;
-    }
-
-    @media(max-width: 320px){
-        height: 75%;
+        height: 100%;
     }
 `
 
