@@ -12,10 +12,6 @@ export const SectionOne = styled.section`
     @media(max-width: 500px){
         flex-direction: column-reverse;
     }
-
-    @media screen and (max-width: 575px) and (min-width: 500px){
-        height: 60vh;
-    }
 `
 
 export const DivOne = styled.div`
@@ -146,7 +142,7 @@ export const DivTwo = styled.div`
     }
 
     @media(max-width: 500px){
-        height: 85vh;
+        height: 75vh;
     }
 
     @media(max-width: 450px){

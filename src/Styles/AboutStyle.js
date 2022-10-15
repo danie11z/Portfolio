@@ -30,8 +30,7 @@ export const Section = styled.section`
     @media(max-width: 500px){
         flex-direction: column;
         height: 70vh;
-        justify-content: space-between;
-        border: solid #AFEEEE;
+        justify-content: space-evenly;
         border-radius: 2vw 2vw 2vw 2vw;
     }
 `
@@ -48,7 +47,6 @@ export const SectionMid = styled.section`
         flex-direction: column;
         height: 70vh;
         justify-content: space-between;
-        border: solid #AFEEEE;
         border-radius: 2vw 2vw 2vw 2vw;
     }
 `
@@ -65,7 +63,8 @@ export const ImgBox = styled.div`
     @media(max-width: 500px){
         border-radius: 0;
         width: 100%;
-        height: 100%;
+        height: 50%;
+        background-color: #FFFFFF;
     }
 `
 
@@ -80,7 +79,8 @@ export const MidImgBox = styled.div`
     @media(max-width: 500px){
         border-radius: 0;
         width: 100%;
-        height: 100%;
+        height: 50%;
+        background-color: #FFFFFF;
     }
 `
 
@@ -146,6 +146,10 @@ export const Textbox = styled.div`
     justify-content: center;
     @media(max-width: 500px){
         width: 100%;
+        background-color:  #AFEEEE;
+        height: 50%;
+        align-items: center;
+        border-radius: 2vw;
     }
 `
 
@@ -179,7 +183,8 @@ export const P = styled.p`
 
     @media(max-width: 500px){
         font-size: 3.7vw;
-        width: 100%;
+        width: 80%;
+        line-height: 4vh;
     }
 
     @media(max-width: 425px){

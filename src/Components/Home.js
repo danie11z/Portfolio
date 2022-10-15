@@ -16,7 +16,6 @@ export default function About(){
             <S.SectionOne>
                 <S.DivOne>
                     <S.H2>Olá, eu sou o Daniel!</S.H2>
-                    {/* <S.P>A programação entrou na minha vida por acaso. E cursando o bootcamp Vai na Web como Desenvolvedor Front-end, passei a admirar este universo.</S.P> */}
                     <S.P>Para acessar os meus serviços, disponibilizarei as minhas redes e alguns dos meus trabalhos na aba "Projetos".</S.P>
                 </S.DivOne>
                 <S.DivTwo>
