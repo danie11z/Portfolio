@@ -182,7 +182,7 @@ export const P = styled.p`
     }
 
     @media(max-width: 500px){
-        font-size: 3.7vw;
+        font-size: 4.3vw;
         width: 80%;
         line-height: 4vh;
     }
