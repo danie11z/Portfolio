@@ -3,6 +3,10 @@ import {Link} from "react-router-dom"
 
 export const Topo = styled.header`
     display: flex;
+    position: sticky;
+    z-index: 1;
+    background-color: #FFFFFF;
+    top: 0;
 `
 
 export const Nav = styled.nav`
