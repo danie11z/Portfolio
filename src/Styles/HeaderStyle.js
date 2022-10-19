@@ -20,11 +20,11 @@ export const MenuList = styled.ul`
     align-items: center;
     height: 9vh;
 
-    @media screen and (max-width: 820px) and (min-width: 500px){
+    @media(max-width: 820px){
         width: 55vw;
     }
     
-    @media screen and (max-width: 500px) and (min-width: 320px){
+    @media(max-width: 500px){
         width: 100%;
     }
 `
@@ -40,23 +40,23 @@ export const MenuLink = styled(Link)`
         color: #000000;
     }
 
-    @media screen and (max-width: 950px) and (min-width:820px){
+    @media(max-width: 950px){
         font-size: 2vw;
     }
 
-    @media screen and (max-width: 820px) and (min-width: 680px){
+    @media(max-width: 820px){
         font-size: 2.5vw;
     }
 
-    @media screen and (max-width: 680px) and (min-width: 563px){
+    @media(max-width: 680px){
         font-size: 3vw;
     }
 
-    @media screen and (max-width: 563px) and (min-width: 500px){
+    @media(max-width: 563px){
         font-size: 3.8vw;
     }
 
-    @media screen and (max-width: 500px) and (min-width: 320px){
+    @media (max-width: 500px){
         font-size: 4vw;
     }
 `

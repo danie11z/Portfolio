@@ -34,6 +34,19 @@ export const Section = styled.section`
         width: 100%;
         height: 95vh;
     }
+
+    @media(max-width: 425px){
+        height: 90vh;
+    }
+
+    @media(max-width: 375px){
+        height: 78vh;
+    }
+
+    @media(max-width: 320px){
+        height: 70vh;
+    }
+
 `
 
 export const H2 = styled.h2`
@@ -66,6 +79,9 @@ export const DivOne = styled.div`
         flex-direction: column;
         height: 80vh;
     }
+
+    
+
 `
 
 export const DivTwo = styled.div`
@@ -88,6 +104,14 @@ export const DivTwo = styled.div`
     @media(max-width: 500px){
         width: 100%;
         height: 53vh;
+    }
+
+    @media(max-width: 425px){
+        height: 45vh;
+    }
+
+    @media(max-width: 320px){
+        height: 37vh;
     }
 `
 
@@ -143,6 +167,10 @@ export const ImgTwo = styled.img`
     @media(max-width: 500px){
         width: 7vw;
     }
+
+    @media(max-width: 425px){
+        width: 9vw;
+    }
 `
 
 export const DivFour = styled.div`
@@ -175,5 +203,9 @@ export const P = styled.p`
 
     @media(max-width: 500px){
         font-size: 4vw;
+    }
+
+    @media(max-width: 425px){
+        font-size: 4.3vw;
     }
 `
